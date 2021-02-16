@@ -15,9 +15,6 @@
     transition: all 1s;
     overflow-x: scroll;
 }
-p, h1, h2 {
-    padding: 1.5em 0 1.5em 0;
-}
 tbody tr:nth-child(2n+1){
     background-color: var(--ouClearWhite)
 }
@@ -100,13 +97,18 @@ tbody tr:hover {
     border: 3px dashed var(--ourMallow);
 }
 .simple-row-height-fixer {
-    height: 40px;
+    height: 2em;
 }
 .high-row-height-fixer {
-    height: 100px;
+    height: 4em;
 }
 .high-border-paddinger {
     padding: 10%;
+}
+.bloc-inliner-around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .simple-border-paddinger {
     padding: 5%;
