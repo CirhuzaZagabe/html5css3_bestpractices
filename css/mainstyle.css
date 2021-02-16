@@ -1,0 +1,119 @@
+
+/* constant vales used in the styles */
+
+:root {
+    --ourRed: #cf0025;
+    --ourWhite: #ddd;
+    --ouClearWhite: #ece9e9;
+    --ourMallow: #4e41ae;
+    --ourLightBlack: #3f3e3e;
+}
+/* elements styles */
+* {
+    padding: 0;
+    margin: 0;
+    transition: all 1s;
+    overflow-x: scroll;
+}
+p, h1, h2 {
+    padding: 1.5em 0 1.5em 0;
+}
+tbody tr:nth-child(2n+1){
+    background-color: var(--ouClearWhite)
+}
+tbody tr:hover {
+    background-color: #7e7a7a;
+}
+
+/* main page styles */
+
+.natural-margin-nullifier {
+    margin: 0;
+}
+.container {
+    background-color: var(--ourWhite);
+}
+/* page styles */
+
+.link-natural-style-nullifier {
+    text-decoration: none;
+}
+.simple-top-bottom-scoper {
+    margin: 2em 0 2em 0;
+}
+.simple-opacitizer {
+    opacity: 0.5;
+}
+.main-title-sizer {
+    font-size: 2.5rem;
+}
+.main-subtitles-sizer {
+    font-size: 1.5rem;
+}
+.bolder {
+    font-weight: bold;
+}
+.inline-reder {
+    color: var(--ourRed);
+}
+.bloc-whitener {
+    background-color: var(--ourWhite);
+}
+.inline-light-bluer {
+    color: #05054b;
+}
+.bloc-centerer {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.text-centerer {
+    text-align: center;
+}
+.inline-whitener {
+    color: var(--ouClearWhite);
+}
+.inline-mallowerer {
+    color: var(--ourMallow);
+}
+.bloc-lightdarkener {
+    background-color: var(--ourLightBlack);
+}
+.less-top-bottom-scoper {
+    margin: 1.5em 0 1.5em 0;
+}
+.width-maximiser {
+    width: 100%;
+}
+.simple-2D-translater {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.italizer {
+    font-style: italic;
+}
+.text-right-liner {
+    text-align: right;
+}
+.mallow-dashed-borderer {
+    border: 3px dashed var(--ourMallow);
+}
+.simple-row-height-fixer {
+    height: 40px;
+}
+.high-row-height-fixer {
+    height: 100px;
+}
+.high-border-paddinger {
+    padding: 10%;
+}
+.simple-border-paddinger {
+    padding: 5%;
+}
+.red-solid-borderer {
+    border: 3px solid var(--ourRed);
+}
+.table-border-collapser {
+    border-collapse: collapse;
+}
